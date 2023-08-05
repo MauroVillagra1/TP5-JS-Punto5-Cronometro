@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cronómetro</title>
+    <!-- Enlace a la hoja de estilos de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Enlace a la hoja de estilos personalizada -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Cronómetro</h1>
+        <div class="cronometro" id="cronometro">00:00:00</div>
+        <div class="btn-group mt-3">
+            <button type="button" class="btn btn-primary" onclick="iniciarCronometro()">Iniciar</button>
+            <button type="button" class="btn btn-secondary" onclick="pausarCronometro()">Pausar</button>
+            <button type="button" class="btn btn-danger" onclick="resetCronometro()">Reset</button>
+        </div>
+    </div>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
